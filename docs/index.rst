@@ -6,6 +6,8 @@
 Welcome to tio2 book's documentation!
 =====================================
 
+This book is meant to be a collention of investing stories and stories for different companies such as biotech pharmaceutical companies. 
+
 Contents:
 
 .. toctree::
@@ -13,8 +15,8 @@ Contents:
    
    chapters/chapter1
    chapters/chapter2
-
-
+   chapters/chapter3
+   chapters/chapter4
 
 Indices and tables
 ==================
