@@ -50,7 +50,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'tio2 book'
 copyright = u'2016, tio2'
-author = u'tio2'
+author = u'Pei Ma'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -66,7 +66,7 @@ release = u'0.0.1'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'zh_CN'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -237,24 +237,69 @@ htmlhelp_basename = 'tio2bookdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
-     # The paper size ('letterpaper' or 'a4paper').
-     #
-     # 'papersize': 'letterpaper',
+# -- Options for LaTeX output ---------------------------------------------
+import os 
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+    latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    #'papersize': 'letterpaper',
+    # The font size ('10pt', '11pt' or '12pt').
+    #'pointsize': '10pt',
+    # Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+    \hypersetup{unicode=true}
+    \usepackage{CJKutf8}
+    \DeclareUnicodeCharacter{00A0}{\nobreakspace}
+    \DeclareUnicodeCharacter{2203}{\ensuremath{\exists}}
+    \DeclareUnicodeCharacter{2200}{\ensuremath{\forall}}
+    \DeclareUnicodeCharacter{2286}{\ensuremath{\subseteq}}
+    \DeclareUnicodeCharacter{2713}{x}
+    \DeclareUnicodeCharacter{27FA}{\ensuremath{\Longleftrightarrow}}
+    \DeclareUnicodeCharacter{221A}{\ensuremath{\sqrt{}}}
+    \DeclareUnicodeCharacter{221B}{\ensuremath{\sqrt[3]{}}}
+    \DeclareUnicodeCharacter{2295}{\ensuremath{\oplus}}
+    \DeclareUnicodeCharacter{2297}{\ensuremath{\otimes}}
+    \begin{CJK}{UTF8}{gbsn}
+    \AtEndDocument{\end{CJK}}
+    ''',
+    }
+else:       
+    latex_elements = {
+         # The paper size ('letterpaper' or 'a4paper').
+         #
+         # 'papersize': 'letterpaper',
 
-     # The font size ('10pt', '11pt' or '12pt').
-     #
-     # 'pointsize': '10pt',
+         # The font size ('10pt', '11pt' or '12pt').
+         #
+         # 'pointsize': '10pt',
 
-     # Additional stuff for the LaTeX preamble.
-     #
-     # 'preamble': '',
+         # Additional stuff for the LaTeX preamble.
+         #
+         # 'preamble': '',
 
-     # Latex figure (float) alignment
-     #
-     # 'figure_align': 'htbp',
-}
+         # Latex figure (float) alignment
+         #
+         # 'figure_align': 'htbp',        
 
+    'label': '\\usepackage[english]{babel}',
+    'papersize': 'letterpaper',
+    'pointsize': '12pt',
+
+    # Additional stuff for the LaTeX preamble.
+    'preamble': '''
+    \usepackage{xeCJK}
+    \usepackage{indentfirst}
+    \setlength{\parindent}{2em}
+    \setCJKmainfont[BoldFont=SimHei, ItalicFont=FangSong]{SimSun}
+    \setCJKmonofont[Scale=0.9]{FangSong}
+    \setCJKfamilyfont{song}[BoldFont=SimSun]{SimSun}
+    \setCJKfamilyfont{sf}[BoldFont=SimSun]{SimSun}
+    \XeTeXlinebreaklocale "zh"
+    \XeTeXlinebreakskip = 0pt plus 1pt
+    '''     
+         
+    }
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).

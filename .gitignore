@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 *.md~
 *.rst~
+*.py~
+Makefile~
 
 # Distribution / packaging
 .Python
