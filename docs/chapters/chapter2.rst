@@ -1,4 +1,5 @@
 .. _accel:
+.. index:: Facebook, investment, Accel
 
 Accel
 ========

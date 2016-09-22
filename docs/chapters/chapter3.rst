@@ -1,4 +1,5 @@
 .. _tesaro:
+.. index:: Tesaro, Waltham
 
 Tesaro Inc
 ==========

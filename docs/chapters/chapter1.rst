@@ -1,4 +1,5 @@
 .. _robertDuggan:
+.. index:: Pharmacyclics, oncology, investment, VC
 
 Robert Duggan
 =============
