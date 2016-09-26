@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to tio2 book's documentation!
-=====================================
+Biotech Company stories and their funding stories
+===================================================
 
-This book is meant to be a collention of investing stories and stories for different companies such as biotech pharmaceutical companies. 
+This book is meant to be a collention of investing stories and stories for different companies with a focus in biotech pharmaceutical companies. 
 
 Contents:
 
