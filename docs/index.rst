@@ -25,6 +25,7 @@ Contents:
    chapters/chapter10
    chapters/chapter11
    chapters/chapter12
+   chapters/chapter13
 
 Indices and tables
 ==================
