@@ -8,7 +8,7 @@ Robert Duggan, CEO of biotech drugmaker Pharmacyclics PCYC,  will pocket over $3
 
 Under terms of the deal, Duggan will receive $3.55 billion for his 13.6 million shares, about an 18% stake in the biotech company, according to corporate filings.
 
-Other senior execs are set for big payouts as well, including Chief Operating Officer Mahkam Zanganeh, whose shares are worth nearly $224.6 million, and director David Smith, who will pocket nearly $46.5 million. All told, directors and senior executives could  receive nearly $4 billion in merger-related payments, Pharmacyclics says.
+Other senior execs are set for big payouts as well, including Chief Operating Officer Mahkam Zanganeh, whose shares are worth nearly $224.6 million, and director David Smith, who will pocket nearly $46.5 million. All told, directors and senior executives could   receive nearly $4 billion in merger-related payments, Pharmacyclics says.
 
 Duggan, 70, is a longtime private venture investor and was CEO of surgical systems maker Computer Motion until it was acquired by Intuitive Surgical  ISRG in 2003.
 
